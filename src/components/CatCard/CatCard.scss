@@ -1,0 +1,12 @@
+.cat-list__cat {
+    position: relative;
+
+    &:hover {
+        .cat-list__cat-img {
+            scale: 1.12;
+            transition: 0.4s;
+            box-shadow: 0 6px 5px 0 rgba(0, 0, 0, 0.24), 0 9px 18px 0 rgba(0, 0, 0, 0.18);
+        }
+    }
+}
+
