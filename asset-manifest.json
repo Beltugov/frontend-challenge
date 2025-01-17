@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/frontend-challenge/static/css/main.86cd4673.css",
+    "main.js": "/frontend-challenge/static/js/main.e0af38bc.js",
+    "index.html": "/frontend-challenge/index.html",
+    "main.86cd4673.css.map": "/frontend-challenge/static/css/main.86cd4673.css.map",
+    "main.e0af38bc.js.map": "/frontend-challenge/static/js/main.e0af38bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86cd4673.css",
+    "static/js/main.e0af38bc.js"
+  ]
+}
