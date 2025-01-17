@@ -1,5 +1,4 @@
 import React, { useState} from 'react';
-import img from "../../assets/img.png";
 import LikeBtn from "../LikeBtn/LikeBtn";
 import {useDispatch} from "react-redux";
 import "./CatCard.scss"

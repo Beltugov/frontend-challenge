@@ -7,8 +7,8 @@ const Header = () => {
 
     return (
         <header className="header">
-            <Link className={"link-btn " + (location === "/" && "selected")} to={"/"}>Все котики</Link>
-            <Link className={"link-btn " + (location === "/favorite" && "selected")} to={"/favorite"}>Любимые котики</Link>
+            <Link className={"link-btn " + (location === "/frontend-challenge" && "selected")} to={"/frontend-challenge"}>Все котики</Link>
+            <Link className={"link-btn " + (location === "frontend-challenge/favorite" && "selected")} to={"frontend-challenge/favorite"}>Любимые котики</Link>
         </header>
     );
 };

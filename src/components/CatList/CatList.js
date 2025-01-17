@@ -14,11 +14,12 @@ const CatList = ({arr, isLoading, likedList}) => {
     const observerLoader = useRef(null);
 
     useEffect(() => {
-        if (location === "/") {
+        if (location === "/frontend-challenge") {
             if (observerLoader.current) {
                 observerLoader.current.disconnect();
             }
             observerLoader.current = new IntersectionObserver((entries) => entries[0].isIntersecting && dispatch(fetchCats()));
+
             if (lastItem.current) {
                 observerLoader.current.observe(lastItem.current);
             }
